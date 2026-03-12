@@ -9,6 +9,7 @@ This microservice allows the user to get a random greeting. Optionally, the user
 To request data from this microservice, you will need to make an `HTTP GET request` to the `/randomgreeting` endpoint. You may optionally pass the `user_name` as a string that represents the `user's name` as a query parameter.
 
 _Example call:_ `GET http://127.0.0.1:8000/randomgreeting`
+
 _Example call:_ `GET http://127.0.0.1:8000/randomgreeting?user_name=Harry`
 
 
